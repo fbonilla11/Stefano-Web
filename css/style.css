@@ -1,0 +1,50 @@
+ /*Quitar barra scroll, pero que siga funcionando*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav{
+    background-color: rgb(2,0,36);
+}
+nav a{
+    margin-left: 80px;
+}
+nav a:hover{
+    opacity: 0.5;
+}
+
+.bg-image{
+    /*background-image: url("../img/img1.avif");*/
+    background: rgb(2,0,36);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#titulo, #subtitulo{
+    color:white;
+}
+
+.divTitulo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seeBtn{
+    width: 20%;
+    align-self: center;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+/*Section*/
+
+.proyectos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#proyectoTitulo{
+    color: aliceblue;
+}

@@ -6,9 +6,6 @@ body::-webkit-scrollbar {
 nav{
     background-color: rgb(2,0,36);
 }
-nav a{
-    margin-left: 80px;
-}
 nav a:hover{
     opacity: 0.5;
 }

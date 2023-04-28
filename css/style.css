@@ -19,6 +19,7 @@ nav a:hover{
 }
 #titulo, #subtitulo{
     color:white;
+    font-family: cursive;
 }
 
 .divTitulo{
@@ -31,9 +32,9 @@ nav a:hover{
     align-self: center;
 }
 
-img:hover{
+/*img:hover{
     opacity: 0.5;
-}
+}*/
 
 /*Section*/
 
@@ -44,4 +45,14 @@ img:hover{
 
 #proyectoTitulo{
     color: aliceblue;
+}
+
+h5{
+    color: black;
+}
+
+/*Modal*/
+.modal-content{
+    background: rgb(2,0,36);
+    color: white;
 }

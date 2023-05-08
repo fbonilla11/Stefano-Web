@@ -5,9 +5,30 @@ body::-webkit-scrollbar {
 
 nav{
     background-color: rgb(2,0,36);
+    opacity: 0.85;
 }
 nav a:hover{
     opacity: 0.5;
+}
+
+#offcanvasDarkNavbar{
+    background-color: rgb(2,0,36);
+}
+
+.dropdown-menu{
+    background-color: rgb(2,0,36);
+    
+}
+.dropdown-item{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.offcanvas-title{
+    color: white;
 }
 
 .bg-image{
@@ -55,4 +76,90 @@ h5{
 .modal-content{
     background: rgb(2,0,36);
     color: white;
+    box-shadow: 0 20px 46px 0 rgb(0, 0, 0);
 }
+
+/*Carousel*/
+.carousel-item img{
+    width: 100%;
+ }
+
+ #c-img1{
+    height: 925px;
+    width: 100%;
+    background: no-repeat center center scroll;
+ }
+
+ #c-img2{
+    height: 925px;
+    width: 100%;
+ }
+
+ #c-img3{
+    height: 925px;
+    width: 100%;
+ }
+
+ .carousel-control-prev:hover{
+    background: linear-gradient(to left, transparent, rgb(2,0,36));
+ }
+
+ .carousel-control-next:hover{
+    background: linear-gradient(to right, transparent, rgb(2,0,36));
+ }
+
+ /*Card inside carousel*/
+ .card{
+    /*margin-bottom: 35vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    border: none;
+    opacity: 0.8;
+    background:  rgb(2,0,36);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    box-shadow: 0 10px 26px 0 rgb(2,0,36);
+    margin-bottom: 30px;
+    padding: 20px;
+ }
+
+ .card:hover{
+    opacity: 1.0;
+ }
+
+ .card-body{
+    width: 100%;
+    
+ }
+
+ .card-text{
+    font-size: 2.5em;
+ }
+
+ /*Section images*/
+ #tramitesImg:hover{
+    opacity: 0.5;
+ }
+
+ /*Proyectos propios*/
+
+ #proyectosText{
+    color: white;
+ }
+
+ /*Scroll effect*/
+
+ .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

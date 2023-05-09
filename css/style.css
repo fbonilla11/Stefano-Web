@@ -171,3 +171,17 @@ h5{
     transform: translateY(0);
     opacity: 1;
   }
+
+/*Footer*/
+footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.list-inline-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.list-inline-item a:hover{
+    color: rgb(143, 141, 141);
+}

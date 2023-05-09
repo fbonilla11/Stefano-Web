@@ -2,7 +2,7 @@
 //Onload function
 window.onload = function inicio() {
 
-    homeModal();
+    //homeModal();
 
 }
 
@@ -18,17 +18,28 @@ function homeModal() {
 
             var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
             myModal.toggle();
-            console.log("Modal lanzado");
 
-        }, 5000); 
+            console.log("Modal lanzado con éxito");
+
+        }, 7000); 
 
      } catch (error) {
         reject("Error, no se ha podido lanzar el modal " + error);
     }
 
 
-
 }
+
+//Close modal button
+document.getElementById("closeModal").addEventListener("click", closeModal);
+
+function closeModal() {
+  let modal = document.getElementsByClassName("modal").item(0);
+  modal.className = "fade";
+
+  console.log("Modal cerrado con éxito");
+}
+
 
 //Create scroll effect
 function reveal() {
@@ -46,5 +57,8 @@ function reveal() {
       }
     }
   }
+
+
+
   
 

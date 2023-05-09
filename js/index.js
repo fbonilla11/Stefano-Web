@@ -2,7 +2,7 @@
 //Onload function
 window.onload = function inicio() {
 
-    //homeModal();
+    homeModal();
 
 }
 

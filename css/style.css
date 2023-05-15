@@ -57,10 +57,6 @@ nav a:hover{
     align-self: center;
 }
 
-/*img:hover{
-    opacity: 0.5;
-}*/
-
 /*Section*/
 
 .proyectos{
@@ -114,7 +110,6 @@ h5{
 
  /*Card inside carousel*/
  .card{
-    /*margin-bottom: 35vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,6 +166,16 @@ h5{
     transform: translateY(0);
     opacity: 1;
   }
+
+
+/*Formulario de contacto (home)*/
+
+#formularioDiv{
+    background:  rgb(2,0,36);
+    color: white;
+    width: 100%;
+}
+
 
 /*Footer*/
 footer{

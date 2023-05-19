@@ -1,37 +1,24 @@
 
 //Onload function
-window.onload = function inicio() {
-
-    homeModal();
-
-}
+//window.addEventListener("mouseout", homeModal);
 
 //Scroll effects
 window.addEventListener("scroll", reveal);
 
 //Create modal
 function homeModal() {
-
-
-    try {
-        setTimeout(() => {
-
+  
             var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
             myModal.toggle();
 
             console.log("Modal lanzado con éxito");
-
-        }, 7000); 
-
-     } catch (error) {
-        reject("Error, no se ha podido lanzar el modal " + error);
-    }
+ 
 
 
 }
 
 //Close modal button
-document.getElementById("closeModal").addEventListener("click", closeModal);
+//document.getElementById("closeModal").addEventListener("click", closeModal);
 
 function closeModal() {
   let modal = document.getElementsByClassName("modal").item(0);

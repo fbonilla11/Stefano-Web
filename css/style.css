@@ -3,11 +3,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-nav{
-    background-color: rgb(2,0,36);
-    opacity: 0.85;
+#nav{
+    background: linear-gradient(to right, rgb(2,0,36), transparent);
 }
-nav a:hover{
+#nav a:hover{
     opacity: 0.5;
 }
 

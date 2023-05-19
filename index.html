@@ -11,67 +11,13 @@
 
     <!--Nav-->
 
-    <nav class="navbar navbar-dark fixed-top">
+    
 
-      <div class="container-fluid col-11">
-        <a class="navbar-brand text-center" href="#">Stefano Rigón</a>
-        <div class="container-fluid d-flex justify-content-end col-10">
-          <form class="d-flex me-4" role="search">
-            <input class="form-control me-1" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-success" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg>
-            </button>
-          </form>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header">
-            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inicio</h3>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ms-4">
-              <li class="nav-item text-white">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hoteles.html">Hoteles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ingeniería y Arquitectura técnica</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Proyectos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Reformas completas</a></li>
-                  <li><a class="dropdown-item" href="#">Planificación de proyectos</a></li>
-                  <li><a class="dropdown-item" href="#">Gestión de alquiler de apartamentos</a></li>
-                  <li><a class="dropdown-item" href="#">Venta de inmuebles</a></li>
-                  <li><a class="dropdown-item" href="#">Soluciones legales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Modal (landing) -->
+    <!-- Modal (landing)
     <div class="modal show" id="myModal" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
       
-        <!-- Modal content-->
+         Modal content
         <div class="modal-content border">
           <div class="modal-body">
             <div class="container mt-3 mb-3">
@@ -99,68 +45,164 @@
       </div>
     </div>
     
-    </div>
+    </div>-->
 
     <!--Section-->
 
-    <div class="bg-image w-100 d-flex">
-      <div class="container-fluid w-100">
-        <div class="row">
-            <div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section class="bg-image container-fluid d-flex">
+
+      <!--Nav-->
+      <div class="bg-image w-40 justify-content-center align-self-center col-1" id="nav">
+        <div class="">
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade modal-xl" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="container-fluid col-12 d-flex">
+                    <div id="logo" class="col-12 text-center">
+                      <h1 id="logoNav">Stefano Rigón</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body text-center m-3">
+            
+
+                  <div class="container">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item" id="homeLink">
+                        <a class="nav-link active" aria-current="page" href="#">Home &nbsp
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown d-flex justify-content-center" id="ingenieriaLink">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ingeniería y Arquitectura técnica &nbsp
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16">
+                            <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1H1z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu text-center w-100 justify-content-center">
+                          <li><a class="dropdown-item" href="#">Mediciones de inmuebles&nbsp 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16">
+                              <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1H1z"/>
+                            </svg>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown d-flex justify-content-center" id="hotelesLink">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Gestión de proyectos de hoteles &nbsp 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building-fill" viewBox="0 0 16 16">
+                            <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H3Zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown d-flex justify-content-center" id="proyectosLink">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Proyectos propios &nbsp 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                            <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+
+                </div>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active d-flex" id="c-img1" data-interval="3000">
-                  <img src="./img/img2.jpg" class="d-block w-100" alt="First slide">
-                  <div class="carousel-caption align-self-center">
-                    <div class="card">
-                      <div class="card-body pt-4">
-                        <p class="card-text">Gestión de proyectos de hoteles</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item d-flex" id="c-img2" data-bs-interval="3000">
-                  <img src="./img/img2.jpg" class="d-block w-100" alt="Second slide">
-                  <div class="carousel-caption">
-                    <div class="card">
-                      <div class="card-body pt-4">
-                        <p class="card-text">Ingeniería y arquitectura técnica</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item d-flex" id="c-img3" data-bs-interval="3000">
-                  <img src="./img/img2.jpg" class="d-block w-100" alt="Third slide">
-                  <div class="carousel-caption">
-                    <div class="card">
-                      <div class="card-body pt-4">
-                        <p class="card-text">Proyectos</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
+
+      <!--Carousel-->
+      <div class="bg-image w-90 d-flex">
+        <div class="container-fluid w-100">
+          <div class="row">
+              <div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-flex" id="c-img1" data-interval="3000">
+                    <img src="./img/img2.jpg" class="d-block w-100" alt="First slide">
+                    <div class="carousel-caption align-self-center">
+                      <div class="card">
+                        <div class="card-body pt-4">
+                          <p class="card-text">Gestión de proyectos de hoteles</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex" id="c-img2" data-bs-interval="3000">
+                    <img src="./img/img2.jpg" class="d-block w-100" alt="Second slide">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body pt-4">
+                          <p class="card-text">Ingeniería y arquitectura técnica</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex" id="c-img3" data-bs-interval="3000">
+                    <img src="./img/img2.jpg" class="d-block w-100" alt="Third slide">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body pt-4">
+                          <p class="card-text">Proyectos</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Proyectos hoteleros-->
     <div class="container-fluid bg-image">
       <div class="row reveal d-flex align-items-center">

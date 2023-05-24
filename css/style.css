@@ -10,6 +10,10 @@ body::-webkit-scrollbar {
     opacity: 0.5;
 }
 
+section{
+    background: linear-gradient(to right, rgb(2,0,36), transparent);
+}
+
 .nav-item a{
     color: white;
 }
@@ -79,6 +83,19 @@ h5{
 }
 
 /*Carousel*/
+
+.tituloStefano {
+    margin-left: -25vh;
+    width: 30vh;
+    color:white;
+    background-color:rgb(2,0,36);;
+    top: 0;
+    bottom: auto;
+}
+.tituloStefano a{
+    text-decoration: none;
+    color: white;
+}
 .carousel-item img{
     width: 100%;
  }

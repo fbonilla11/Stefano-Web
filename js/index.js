@@ -45,7 +45,13 @@ function reveal() {
     }
   }
 
+//Create function to go to an especific div
+function scrollToDiv() {
+  var div = document.getElementById('botones');
+  div.scrollIntoView({ behavior: 'smooth' });
+}
 
+document.getElementById("btnInicio").addEventListener("click", scrollToDiv);
 
   
 

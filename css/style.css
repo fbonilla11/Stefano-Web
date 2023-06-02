@@ -210,8 +210,10 @@ footer{
 
 /*Página hoteles*/
 .image-container{
-    background-image: url("./img/img1.jpg");
+    background-image: url(./img/img2.jpg);
+    background-size: cover;
     position: relative;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
 }
 
 .text-container {
@@ -227,8 +229,13 @@ footer{
 }
 
 .image-container:hover{
+    background: rgba(0, 0, 0, 0.5);
     .text-container{
-       display: flex; 
+        overflow: auto;
+       display: flex;
+       transition: .5s;
     }
     
 }
+
+/*proyectos*/

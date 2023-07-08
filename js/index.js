@@ -51,7 +51,6 @@ function scrollToDiv() {
   div.scrollIntoView({ behavior: 'smooth' });
 }
 
-document.getElementById("btnInicio").addEventListener("click", scrollToDiv);
 
   
 

@@ -84,18 +84,22 @@ h5{
 
 /*Carousel*/
 
+#divBoton{
+    bottom: auto;
+}
+
 .tituloStefano {
-    width: 30vh;
+    font-size: xx-large;
     color:black;
-    background-color:rgb(168, 168, 172);
-    box-shadow: 0 10px 26px 0 rgb(168, 168, 172);
     top: 0;
     bottom: auto;
 }
 .tituloStefano a{
+    font-size: larger;
     text-decoration: none;
-    color: white;
+    color: black;
 }
+
 .carousel-item img{
     width: 100%;
  }
@@ -157,6 +161,17 @@ h5{
  /*Section images*/
  #tramitesImg:hover{
     opacity: 0.5;
+ }
+
+ /*Proyectos Hoteleros*/
+ #cardProyectosHoteleros{
+    background-color: transparent;
+ }
+ #proyectos{
+    background-color: transparent;
+ }
+ #IngenieríaArquitectura{
+    background-color: transparent;
  }
 
  /*Proyectos propios*/
@@ -238,4 +253,50 @@ footer{
     
 }
 
-/*proyectos*/
+                                        /*Web responsive*/
+
+                    /*Mobile version*/
+
+/*Index.html*/
+
+@media (max-width: 600px){
+
+    /*Carousel images*/
+
+        #carouselExample{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel-inner{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 80%;
+            width: 100%;
+        }
+        
+        .item img {
+            position: absolute;
+            object-fit:cover;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+    
+    /*Carousel text*/
+        
+
+        .tituloStefano:hover{
+            border: solid;
+        }
+
+        #divBotonMenu{
+            height: auto;
+            width: 50%;
+        }
+}
+

@@ -174,6 +174,10 @@ h5{
     background-color: transparent;
  }
 
+ #tramitesImgMovil{
+    display: none;
+ }
+
  /*Proyectos propios*/
 
  #proyectosText{
@@ -268,6 +272,7 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 15px;
         }
 
         .carousel-inner{
@@ -297,6 +302,35 @@ footer{
         #divBotonMenu{
             height: auto;
             width: 50%;
+        }
+    
+    /*Proyectos Hoteleros*/
+
+        #divProyectosHoteleros{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border: solid;
+        }
+
+        #proyectos{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #tramitesImg{
+            display: none;
+        }
+        #tramitesImgMovil{
+            display: flex;
+            margin: 5px;
+            width: 100%;
+        }
+
+        #cardProyectosHoteleros{
+            width: 100%;
         }
 }
 

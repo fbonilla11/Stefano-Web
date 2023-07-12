@@ -312,7 +312,6 @@ footer{
             flex-direction: row;
             flex-wrap: wrap;
             align-items: center;
-            border: solid;
         }
 
         #proyectos{
@@ -330,6 +329,7 @@ footer{
         }
 
         #cardProyectosHoteleros{
+            margin: 20px;
             width: 100%;
         }
 }

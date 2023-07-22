@@ -25,10 +25,10 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active d-flex" id="c-img1" data-interval="3000">
-                    <img src="./img/fondo.jpg" class="d-block w-100" alt="First slide">
-                    <div class="carousel-caption d-flex justify-content-center align-self-center border">
-                       <div id="botonMenu" class="col-12 border">
+                  <div class="carousel-item active d-flex border" id="c-img1" data-interval="3000">
+                    <img src="./img/fondo.jpg" class="d-block w-100 border" alt="First slide">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-self-center text-center border">
+                      <div id="botonMenu" class="col-12 align-self-center justify-content-center border">
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -48,31 +48,33 @@
                     <img src="./img/presentacion.jpg" class="d-block w-100" alt="Second slide">
                     <div class="tituloStefano carousel-caption align-self-center rounded mt-5">
                       <h2 class="text-center p-2">
-                        <a href="#">Project Approach</a> 
+                        <a href="./index.html">Project Approach</a>  
                       </h2>
                     </div>
                     <div class="carousel-caption">
-                      <div class="card">
-                        <div class="card-body pt-4">
-                          <p class="card-text">Ingeniería y arquitectura técnica</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
+                      <div id="botonMenu" class="col-12 align-self-center justify-content-center border">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item d-flex" id="c-img3" data-bs-interval="3000">
-                    <img src="./img/img2.jpg" class="d-block w-100" alt="Third slide">
+                    <img src="./img/fondo.jpg" class="d-block w-100" alt="Third slide">
                     <div class="tituloStefano carousel-caption align-self-center rounded mt-5">
                       <h2 class="text-center p-2">
-                        <a href="#">Project Approach</a> 
+                        <a href="./index.html">Project Approach</a> 
                       </h2>
                     </div>
-                    <div class="carousel-caption">
-                      <div class="card">
-                        <div class="card-body pt-4">
-                          <p class="card-text">Proyectos</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
+                    <div class="carousel-caption border align-self-center">
+                      <div id="botonMenu" class="col-12 align-self-center justify-content-center border">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                        </button>
                       </div>
                     </div>
                     
@@ -203,21 +205,18 @@
 
     </section>
 
-    
-
     <!--Proyectos hoteleros-->
-    <div class="container-fluid bg-image" id="divProyectosHoteleros">
+    <div class="container-fluid bg-image">
       <div class="row reveal d-flex align-items-center">
-        <div class="proyectos d-flex justify-content-center" id="proyectos">
-          <img src="./img/img2.jpg" alt="Hotel" class="align-self-center col-sm-7 rounded-2" id="tramitesImg">
-          <div class="card mt-5 col-sm-2 d-flex align-self-center bg-none" id="cardProyectosHoteleros">
+        <div class="proyectos d-flex justify-content-center">
+          <div class="card mt-5 d-flex align-self-center bg-none" id="IngenieríaArquitectura">
             <div class="card-body justify-content-center">
               <div class="card-body justify-content-center border">
                 <h1 class="card-text text-center">Gestión de proyectos de hoteles</h1>
                 <h3 class="text-center mt-5 text-white">
                   Los proyectos de hoteles buscan desarrollar y establecer establecimientos de hospedaje, desde la planificación y diseño hasta la construcción y operación. Requieren un enfoque estratégico y análisis de mercado para asegurar su éxito. La ubicación, el diseño interior, el personal y los servicios son aspectos clave a considerar. Estos proyectos son multifacéticos y requieren atención a los detalles para crear un hotel rentable y exitoso.
                 </h3>
-                <img src="./img/img2.jpg" alt="Hotel" class="align-self-center col-xsm-7 rounded-2" id="tramitesImgMovil">
+                <img src="./img/img2.jpg" alt="Hotel" class="align-self-center col-sm-7 rounded-2" id="tramitesImgMovil">
               </div>
               <div class="d-flex w-100 d-flex justify-content-center">
                 <a href="#" class="btn btn-primary w-100 d-flex align-items-center justify-content-center" style="height: 10vh;"><h4>Ver más</h4></a>
@@ -225,6 +224,7 @@
               
             </div>
           </div>
+          <img src="./img/img2.jpg" alt="Hotel" class="align-self-center col-7 rounded-2" id="tramitesImg">
         </div>
       </div>
       <hr>

@@ -39,7 +39,6 @@ section{
 }
 
 .bg-image{
-    /*background-image: url("../img/img1.avif");*/
     background: rgb(168, 168, 172);
     height: 100vh;
     display: flex;
@@ -84,9 +83,12 @@ h5{
 
 /*Carousel*/
 
-#divBoton{
-    bottom: auto;
-}
+.carousel-item > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 .tituloStefano {
     font-size: xx-large;
@@ -267,7 +269,7 @@ footer{
 
     /*Carousel images*/
 
-        #carouselExample{
+        #carouselIndex{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -291,28 +293,21 @@ footer{
             left: 0;
             min-height: 500px;
         }
-    
-    /*Carousel text*/
-        
 
-        .tituloStefano:hover{
-            border: solid;
-        }
-
-        #divBotonMenu{
-            height: 50px;
+        #c-img1{
             width: 100%;
+            height: 725px;
         }
 
-    /*Carousel button*/
+        #c-img2{
+            width: 100%;
+            height: 725px;
+        }
 
-    #botonMenu{
-        display: flex;
-    }
-    #botonMenuMovil{
-        display: flex;
-    }
-    
+        #c-img3{
+            width: 100%;
+            height: 725px;
+        }
     /*Proyectos Hoteleros*/
 
         #divProyectosHoteleros{
